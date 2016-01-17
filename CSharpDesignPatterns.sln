@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational_AbstractFactory"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_MotorCompany", "MotorCompany\_MotorCompany.csproj", "{2B0450D5-A057-448C-BA07-E6A8A25522AB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{327F4057-4E2C-4359-A4E6-DD788CEF7A74}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational_Builder", "Creational_Builder\Creational_Builder.csproj", "{9EB4B17C-5250-4012-BE22-81FD2D9D4EE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +28,10 @@ Global
 		{2B0450D5-A057-448C-BA07-E6A8A25522AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B0450D5-A057-448C-BA07-E6A8A25522AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B0450D5-A057-448C-BA07-E6A8A25522AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EB4B17C-5250-4012-BE22-81FD2D9D4EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EB4B17C-5250-4012-BE22-81FD2D9D4EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EB4B17C-5250-4012-BE22-81FD2D9D4EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EB4B17C-5250-4012-BE22-81FD2D9D4EE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

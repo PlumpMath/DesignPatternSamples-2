@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Creational_AbstractFactory
 {
-    class Program
+    class Client
     {
         static void Main(string[] args)
         {

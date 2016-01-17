@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>deff834f-eff6-40d6-8e19-3b8a17c51272</ProjectGuid>
+    <ProjectGuid>{9EB4B17C-5250-4012-BE22-81FD2D9D4EE7}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Creational_Builder</RootNamespace>
@@ -41,11 +41,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Builder.cs" />
+    <Compile Include="Client.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MotorCompany\_MotorCompany.csproj">
+      <Project>{2b0450d5-a057-448c-ba07-e6a8a25522ab}</Project>
+      <Name>_MotorCompany</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

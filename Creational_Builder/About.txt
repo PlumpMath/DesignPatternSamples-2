@@ -1,0 +1,3 @@
+﻿Purpose:
+Separate the construction of a complex object from it's representation so 
+that the same construction process can create different representations

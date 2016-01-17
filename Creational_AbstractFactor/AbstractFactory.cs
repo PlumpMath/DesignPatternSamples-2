@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Creational_AbstractFactory
 {
-    class FooBar
+    class AbstractFactory
     {
     }
 

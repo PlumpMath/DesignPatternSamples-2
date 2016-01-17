@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MotorCompany
 {
-    public class FooBar
+    public class MotorCompany
     {
     }
 
